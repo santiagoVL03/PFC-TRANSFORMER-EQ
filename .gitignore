@@ -1,0 +1,29 @@
+# Ignore directories and files that are not needed in the repository
+# Ignore Python cache files
+__pycache__/
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+# Ignore virtual environment directories
+venv/
+# Ignore data directories
+data/
+# Ignore output directories
+output/
+asociation/
+detections1/
+downloads_mseeds/
+downloads_mseeds_processed_hdfs/
+downloads_mseedsxml/
+preproc/
+test_trainer_outputs/
+test_tester_outputs/
+# Ignore log files
+logs/
+# Ignore model files
+models/
+# Ignore configuration files
+config.yaml
+# Ignore temporary files
+*.tmp
+# Ignore compiled Python files
+*.pyc
